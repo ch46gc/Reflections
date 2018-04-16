@@ -7,18 +7,20 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area is where a file is added when it is ready to be committed to the respository, but the user would like to keep
   working on other files and perform the commit only one time with all the files to be committed.  This allows a user to keep
-  track of which files are ready while reducing the number of commits necessary to update the respository.  This is very useful if one commit affects multiple files.
+  track of which files are ready while reducing the number of commits necessary to update the respository.  
+  This is very useful if one commit affects multiple files.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	I can run the git diff command to compare the staging area and he working files to ensure I understand what changes I have staged. 
-  Likewise, I can run the git diff --staged command to check what I have staged versus what I have already committed to ensure I'm doing what I thought I was doing.
+	I can run the git diff command to compare the staging area and he working files to ensure I understand what changes 
+	I have staged.  Likewise, I can run the git diff --staged command to check what I have staged versus what I have 
+	already committed to ensure I'm doing what I thought I was doing.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-	Branches are useful when you'd like to make significant or experimental changes to your files, but you want to keep the original 
-  files just the same.  This basically creates two concurrent versions of your files for different purposes.  I can then work on one 
-  or the other branch easily, while still maintaining them separately.
+	Branches are useful when you'd like to make significant  changes to your files, but you want to keep 
+	the original  files just the same.  This basically creates two versions of your files for different purposes. 
+	I can then work on one  or the other branch easily, while still maintaining them separately.
 
 How do the diagrams help you visualize the branch structure?
 
@@ -34,5 +36,5 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-	Utilizing the automatic merge, it can save the user time and effort of having to compare two branches manually.  If there is no
-  obvious conflict, then the user can quickly and easily merge branches and move on.
+	Utilizing the automatic merge, it can save the user time and effort of having to compare two branches manually. 
+	If there is no obvious conflict, then the user can quickly and easily merge branches and move on.
