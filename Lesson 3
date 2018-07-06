@@ -1,34 +1,29 @@
-When would you want to use a remote repository rather than keeping all your work
+1)When would you want to use a remote repository rather than keeping all your work
 local?
+ When collaborating with others this way you can share your work easily.
 
-   When collaborating with others this way you can share your work easily.
-
-Why might you want to always pull changes manually rather than having Git
+2) Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
+ You might not want to pull a change until you have ensured that your code is free of code error.
 
-  You might not want to pull a change until you have ensured that your code is free of code error.
-
-Describe the differences between forks, clones, and branches.  When would you
+3) Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-  Forks are making copies of someones projects.
-  Clone create a local copy on your computer.
-  Branches are paths that point you in the direction to your next location.
+  a) Forks are making copies of someone's projects.
+  b) Clone create a local copy on your computer.
+  c) Branches are paths that point you in the direction to your next location.
 
-What is the benefit of having a copy of the last known state of the remote
+4)What is the benefit of having a copy of the last known state of the remote
 stored locally?
+ You always have something to look back and compare it to.
 
-  You always have something to look back and compare it to. 
-
-How would you collaborate without using Git or GitHub?  What would be easier,
+5) How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+ Doc files, email, cloud based platform. To an extent harder.
 
-   Doc files, email, cloud based platform. To an extent harder.
-
-When would you want to make changes in a separate branch rather than directly in
+6) When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-   You want to make changes in a separate branch in order to initiate a pull request from GitHub.
+ You want to make changes in a separate branch in order to initiate a pull request from GitHub.
 A pull request will allow other people to collaborate, comment, and add code to your project.
 It allows programming in a social ecosystem where input from others is highly desirable and
 supported. On the other hand, changes directly in master may mean that you are the lone
